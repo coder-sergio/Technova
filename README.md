@@ -56,7 +56,7 @@ technova/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/coder-sergio/Technova
+git clone https://github.com/coder-sergio/Technova.git
 
 cd technova
 ````
