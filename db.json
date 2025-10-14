@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Laptop",
+      "marca": "Dell",
+      "categoria": "Laptop",
+      "precio": 1400,
+      "activo": true
+    },
+    {
+      "id": "2",
+      "nombre": "Tablet",
+      "marca": "Samsung",
+      "categoria": "Tablet",
+      "precio": 400,
+      "activo": true
+    },
+    {
+      "id": 0,
+      "nombre": "celular",
+      "marca": "iphone",
+      "categoria": "celular",
+      "precio": 1000,
+      "activo": true
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Admin",
+      "email": "admin@tech.com",
+      "rol": "admin",
+      "activo": true,
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "nombre": "Usuario",
+      "email": "user@tech.com",
+      "rol": "user",
+      "activo": true,
+      "password": "user123"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "usuarioId": 2,
+      "productos": [
+        {
+          "productoId": 1,
+          "cantidad": 1
+        }
+      ],
+      "fecha": "2025-10-14",
+      "estado": "pendiente"
+    }
+  ]
+}
